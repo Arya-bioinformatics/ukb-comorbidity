@@ -1,0 +1,10 @@
+# ------------------ gene based annotation --------------------- #
+../ANNOVAR/annovar/annotate_variation.pl \
+-out ../functional_annotation/all_variant \
+-build hg19 ../functional_annotation/annovar_input.avinput \
+../ANNOVAR/annovar/humandb/
+
+../annovar/annotate_variation.pl \
+-out ../functional_annotation/all_variant_rmhla \
+-build hg19 ../functional_annotation/annovar_input_rmhla.avinput \
+../ANNOVAR/annovar/humandb/
